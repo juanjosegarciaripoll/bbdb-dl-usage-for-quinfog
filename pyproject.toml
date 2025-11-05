@@ -1,0 +1,12 @@
+[project]
+name = "bbb"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "bbb-dl>=1.0.13",
+]
+
+[tool.uv.sources]
+bbb-dl = { git = "https://github.com/C0D3D3V/bbb-dl" }
