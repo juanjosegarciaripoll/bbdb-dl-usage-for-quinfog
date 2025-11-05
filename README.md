@@ -1,9 +1,12 @@
 Steps to use:
 
 1. Install "uv"
-2. Run "uv sync" from within this directory
-3. Run "uv python -m  playwright install chromium
-4. Run "winget install ffmpeg" if on Windows.
-   Alternatively, install ffmpeg via some other method
-   and ensure it is available from the command line.
-5. Run "uv run bbb-dl <the-url-for-the-bbb-recording-webpage>"
+   On Windows you can do this with "winget install uv"
+2. Install "ffmpeg"
+   On Windows you can do this with "winget install ffmpeg"
+3. Restart the terminal to check that both "uv" and "ffmpeg"
+   are available from the command line.
+4. Clone this repository.
+5. Run "uv sync" from within this directory
+6. Run "uv python -m  playwright install chromium
+7. Run "uv run bbb-dl <the-url-for-the-bbb-recording-webpage>"
